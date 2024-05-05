@@ -113,3 +113,4 @@ D:\Faculdade\7° período\Tecnicas Avançadas\ProvaN2\Prova_2_test\obj\Debug\net
 D:\Faculdade\7° período\Tecnicas Avançadas\ProvaN2\Prova_2_test\obj\Debug\net8.0\Prova_2_test.pdb
 D:\Faculdade\7° período\Tecnicas Avançadas\ProvaN2\Prova_2_test\obj\Debug\net8.0\Prova_2_test.genruntimeconfig.cache
 D:\Faculdade\7° período\Tecnicas Avançadas\ProvaN2\Prova_2_test\obj\Debug\net8.0\ref\Prova_2_test.dll
+D:\Faculdade\7° período\Tecnicas Avançadas\ProvaN2\Prova_2_test\obj\Debug\net8.0\Prova_2_test.sourcelink.json
