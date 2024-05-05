@@ -15,7 +15,7 @@ public class SearchController : ControllerBase
     }
 
     [HttpGet(Name = "Search Credit_Score")]
-    public IEnumerable<string> Credit_Score([FromHeader] int age, [FromHeader] string gender, [FromHeader] int drivingExperience, 
+    public IActionResult Credit_Score([FromHeader] int age, [FromHeader] string gender, [FromHeader] int drivingExperience, 
                                             [FromHeader] string education, [FromHeader] string income, [FromHeader] int vehicleYear,
                                             [FromHeader] string vehicleType, [FromHeader] string annualMileage)
     {
@@ -31,10 +31,10 @@ public class SearchController : ControllerBase
                                              && d.VEHICLE_TYPE == vehicleType && d.ANNUAL_MILEAGE == annualMileageGroup);
         if (!objDriverData.Any())
         {
-            return (IEnumerable<string>)NotFound();
+            return NotFound();
         }
 
         var creditScore = objDriverData.Select(d => d.CREDIT_SCORE);
-        return (IEnumerable<string>)Ok(creditScore);
+        return Ok(creditScore);
     }
 }

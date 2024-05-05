@@ -32,3 +32,4 @@ D:\Faculdade\7° período\Tecnicas Avançadas\Prova_2\obj\Debug\net8.0\refint\Pr
 D:\Faculdade\7° período\Tecnicas Avançadas\Prova_2\obj\Debug\net8.0\Prova_2.pdb
 D:\Faculdade\7° período\Tecnicas Avançadas\Prova_2\obj\Debug\net8.0\Prova_2.genruntimeconfig.cache
 D:\Faculdade\7° período\Tecnicas Avançadas\Prova_2\obj\Debug\net8.0\ref\Prova_2.dll
+D:\Faculdade\7° período\Tecnicas Avançadas\Prova_2\obj\Debug\net8.0\Prova_2.sourcelink.json
