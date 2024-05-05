@@ -40,6 +40,7 @@ public class SearchController : ControllerBase
             return creditScore; 
         }
         catch (System.Exception ex) {
+            
             return BadRequest("Chamou o endpoint mas deu erro: "  + ex.Message + ex.StackTrace );
         }
     }
