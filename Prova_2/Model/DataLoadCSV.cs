@@ -11,7 +11,8 @@ public class DataLoadCSV : IDataLoad
 {
     public List<DriverData> Search()
     {
-        return Load<DriverData>(".\\Files\\Car_Insurance_Claim");
+        // return Load<DriverData>(".\\Files\\Car_Insurance_Claim");
+        return Load<DriverData>("https://github.com/iNattan/Car_Insurance_Claim/blob/main/Prova_2/Files/Car_Insurance_Claim");
     }
     public List<T> Load<T>(string local)
     {
