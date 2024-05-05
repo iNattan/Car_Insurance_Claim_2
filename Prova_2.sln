@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova_2", "Prova_2.csproj", "{9FF40BAA-B567-4ED4-801F-DF395F77DBA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova_2", "Prova_2\Prova_2.csproj", "{9FF40BAA-B567-4ED4-801F-DF395F77DBA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova_2_test", "..\Prova_2_test\Prova_2_test.csproj", "{DEDDA912-0321-4D41-BF8B-877CD8FB49D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova_2_test", "Prova_2_test\Prova_2_test.csproj", "{DEDDA912-0321-4D41-BF8B-877CD8FB49D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
