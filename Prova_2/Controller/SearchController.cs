@@ -34,6 +34,8 @@ public class SearchController : ControllerBase
                                              && d.EDUCATION == education && d.INCOME == income && d.VEHICLE_YEAR == vehicleYearGroup 
                                              && d.VEHICLE_TYPE == vehicleType && d.ANNUAL_MILEAGE == annualMileageGroup);
         var creditScore = objDriverData.Select(d => d.CREDIT_SCORE);
+
+        Response.Headers.Add("accept", "*/*");
         
         return creditScore; 
     }
