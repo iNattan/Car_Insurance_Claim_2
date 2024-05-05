@@ -29,7 +29,12 @@ public class SearchController : ControllerBase
         var objDriverData = driverData.Where(d => d.AGE == ageGroup && d.GENDER == gender && d.DRIVING_EXPERIENCE == drivingExperienceGroup 
                                              && d.EDUCATION == education && d.INCOME == income && d.VEHICLE_YEAR == vehicleYearGroup 
                                              && d.VEHICLE_TYPE == vehicleType && d.ANNUAL_MILEAGE == annualMileageGroup);
+        if (!objDriverData.Any())
+        {
+            return (IEnumerable<string>)NotFound();
+        }
+
         var creditScore = objDriverData.Select(d => d.CREDIT_SCORE);
-        return creditScore; 
+        return (IEnumerable<string>)Ok(creditScore);
     }
 }
