@@ -98,9 +98,8 @@ public class SearchController : ControllerBase
             {
                 return new List<string> { "This person does not have a credit score." };
             }
-
+            
             return creditScore; 
-
         }
         catch (System.Exception ex) 
         {
